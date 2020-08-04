@@ -43,3 +43,14 @@ body {
   line-height: 1.5;
   color: #222;
 }
+
+.container {
+  max-width: 800px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wallets-top-heding {
+  font-weight: 400;
+}
