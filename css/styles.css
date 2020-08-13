@@ -41,6 +41,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #ffd700;
   color: #222;
 }
 
@@ -49,8 +50,46 @@ body {
   margin-top: 80px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
+  box-shadow: 0 6px 12px -4px rgba(0, 0, 0, 0.2),
+  0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.wallets {
+  width: 300px;
+  height: 400px;
+  background-color: #efefef;
+  padding: 25px;
 }
 
 .wallets-top-heding {
   font-weight: 400;
+  margin: 0;
+}
+
+.wallets-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.add-wallet-button {
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,
+  box-shadow 0.3s ease;
+}
+
+.add-wallet-button:hover,
+.add-wallet-button:focus {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: 0;
+}
+
+.add-wallet-button img {
+  display: block;
 }
